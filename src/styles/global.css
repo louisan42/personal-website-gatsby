@@ -1,0 +1,40 @@
+body {
+    background-color: #e5e5e5 !important;
+    
+  }
+ 
+ .nav-link {
+  font-family: 'Montserrat',sans-serif;
+  font-weight:500 !important;
+  font-size: 18px;
+  padding: 10px 32px !important;
+  color: black !important;
+  text-align: center !important;
+ }
+
+ .nav-link > .btn.btn-dark:hover{
+    color: black;
+    font-weight:500 !important;
+    background-color: whitesmoke;
+    border: 1px solid black;
+ }
+ .btn.btn-dark{
+  border-radius: 25px;
+  padding: 6px 24px 7px;
+  margin: -5px 15px 0 auto;
+}
+.hero{
+  font-family: 'Raleway',sans-serif;
+}
+.hero h1 {
+  font-size: 60px;
+}
+p.fs-2{
+  
+  margin-top:107px;
+  margin-bottom: 0;
+}
+p.fs-5{
+  font-weight: 800 !important;
+  color:grey;
+}
