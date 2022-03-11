@@ -11,6 +11,14 @@ module.exports = {
                            'Raleway:600' ]
               }
             }
+          },
+          {
+            resolve: "gatsby-plugin-react-svg",
+            options: {
+              rule: {
+                include: /assets/
+              }
+            }
           }
 
     ]

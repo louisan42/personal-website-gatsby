@@ -27,7 +27,19 @@ body {
   font-family: 'Raleway',sans-serif;
 }
 .hero h1 {
-  font-size: 60px;
+  font-size: 3em;
+}
+.bg-gray{
+  background-color: #C0C0C0;
+  border-radius: 25%;
+  padding: 6px;
+} 
+.bg-gray:hover{
+  cursor: pointer;
+}
+.container.d-flex a{
+  text-decoration: none;
+  color: inherit;
 }
 p.fs-2{
   
