@@ -19,6 +19,12 @@ module.exports = {
                 include: /assets/
               }
             }
+          },
+          {
+            resolve: "gatsby-plugin-anchor-links",
+            options: {
+              //offset: 300
+            }
           }
 
     ]

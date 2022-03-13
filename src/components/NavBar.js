@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Nav, Navbar, Container, Button } from "react-bootstrap";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 //import logo from '../../static/images/default.png';
 
 const NavBar = () => {
@@ -9,7 +10,7 @@ const NavBar = () => {
         <Container>
           <Navbar.Brand href="#home">
             <img
-              src= {`../../images/default.png`}
+              src={`../../images/default.png`}
               width="110"
               height="110"
               className="d-inline-block align-top"
@@ -22,12 +23,20 @@ const NavBar = () => {
             className="justify-content-end"
           >
             <Nav className="d-flex">
-              <Nav.Link href="#about-me">About me</Nav.Link>
-              <Nav.Link href="#skills">Skills</Nav.Link>
-              <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-              <Nav.Link href="#contact-me">
-                <Button variant="dark">Contact me</Button>
-              </Nav.Link>
+              <AnchorLink to="/#about-me">
+                <Nav.Item>About me</Nav.Item>
+              </AnchorLink>
+              <AnchorLink to="/#skills">
+                <Nav.Item href="#skills">Skills</Nav.Item>
+              </AnchorLink>
+              <AnchorLink to="/#portfolio">
+                <Nav.Item href="#portfolio">Portfolio</Nav.Item>
+              </AnchorLink>
+              <AnchorLink to="/#contact-me">
+                <Nav.Item href="#contact-me">
+                  <Button variant="dark">Contact me</Button>
+                </Nav.Item>
+              </AnchorLink>
             </Nav>
           </Navbar.Collapse>
         </Container>

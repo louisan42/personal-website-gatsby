@@ -3,7 +3,7 @@ import { Col, Row, Image } from "react-bootstrap";
 
 const AboutMe = () => {
   return (
-    <section name="about-me">
+    <section id="about-me">
       <h4 className=" about text-center p-2 border border-dark border-5">
         ABOUT ME
       </h4>

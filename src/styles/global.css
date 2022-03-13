@@ -2,8 +2,10 @@ body {
     background-color: #e5e5e5 !important;
     
   }
- 
- .nav-link {
+ a {
+   text-decoration: none;
+ }
+ .nav-item {
   font-family: 'Montserrat',sans-serif;
   font-weight:500 !important;
   font-size: 18px;
@@ -12,7 +14,7 @@ body {
   text-align: center !important;
  }
 
- .nav-link > .btn.btn-dark:hover{
+ .nav-item > .btn.btn-dark:hover{
     color: black;
     font-weight:500 !important;
     background-color: whitesmoke;
