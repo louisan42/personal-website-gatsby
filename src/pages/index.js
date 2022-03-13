@@ -3,6 +3,7 @@ import { Container, Image } from "react-bootstrap";
 import AboutMe from "../components/About-me";
 import Hero from "../components/Hero";
 import NavBar from "../components/NavBar";
+import Skills from "../components/Skills";
 
 const IndexPage = () => {
   return (
@@ -23,6 +24,7 @@ const IndexPage = () => {
       </section>
       <Container className="mt-5 mb-5">
         <AboutMe />
+        <Skills />
       </Container>
     </>
   );

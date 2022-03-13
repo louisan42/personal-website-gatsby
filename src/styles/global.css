@@ -1,12 +1,12 @@
 body {
     background-color: #e5e5e5 !important;
-    
+    font-family: 'Montserrat',sans-serif;    
   }
  a {
    text-decoration: none;
  }
  .nav-item {
-  font-family: 'Montserrat',sans-serif;
+  
   font-weight:500 !important;
   font-size: 18px;
   padding: 10px 32px !important;
@@ -20,6 +20,11 @@ body {
     background-color: whitesmoke;
     border: 1px solid black;
  }
+ .card-img-top {
+   width: 64px !important;
+   height: 66px !important;
+   margin: 0 auto;
+ }
  .btn.btn-dark{
   border-radius: 25px;
   padding: 6px 24px 7px;
@@ -30,6 +35,9 @@ body {
 }
 .hero h1 {
   font-size: 3em;
+}
+section#about-me{
+  margin-bottom: 100px;
 }
 .bg-gray{
   background-color: #C0C0C0;
