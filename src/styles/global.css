@@ -4,6 +4,10 @@ body {
   }
  a {
    text-decoration: none;
+   color: inherit;
+ }
+ a:hover{
+   color: inherit;
  }
  .nav-item {
   
@@ -82,6 +86,13 @@ span.fs-5.fw-bold{
   top: 5px;
   font-family: 'Montserrat',sans-serif;
 }
+section>img.position-absolute{
+  height: 200px;
+}
+.portfolio-text{
+  position: relative;
+  top: 80px;
+}
 p.fs-2{
   
   margin-top:107px;
@@ -90,4 +101,103 @@ p.fs-2{
 p.fs-5{
   font-weight: 800 !important;
   color:grey;
+}
+.portfolio-card-img {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+
+.u-container .u-card {
+    max-width: 300px;
+    height: 250px;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.u-container .u-card:hover {
+    height: fit-content;
+}
+
+.u-container .u-card .imgContainer {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    top: -50px;
+    left: 10px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2)
+}
+
+.u-container .u-card .imgContainer img {
+    max-width: 100%;
+    border-radius: 4px;
+    height: 250px;
+}
+
+.u-container .u-card .content {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s ease-in-out
+}
+
+.u-container .u-card:hover .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s
+}
+
+@media (max-width: 330px) {
+    .u-container .u-card .imgContainer {
+        left: -2px
+    }
+}
+.portfolio-container{
+  position: relative;
+  top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (max-width: 1200px) { 
+.about {
+  font-size: 1.2rem;
+  width: 25%;
+}
+
+ }
+ @media (max-width: 576px) { 
+  .about {
+    font-size: .9rem;
+    width: 30%;
+  }
+  .portfolio-text{
+    position: relative;
+    top: 25px;
+  }
+  span.fs-5.fw-bold{
+    font-size: .9rem !important;
+  }
+  section>img.position-absolute{
+    height: 100px;
+  }
+}
+@media only screen and (min-width:767px ) and (max-width:992px)   {
+  .portfolio-text{
+    position: relative;
+    top: 35px;
+  }
 }

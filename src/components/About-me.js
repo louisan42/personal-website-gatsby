@@ -27,7 +27,7 @@ const AboutMe = () => {
           when I need it
         </p>
       </Row>
-      <Row className="w-75 u-center">
+      <Row className="w-75 u-center" >
         <Col className="w-25 mt-5">
           <Image
             fluid

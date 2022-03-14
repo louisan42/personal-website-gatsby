@@ -56,10 +56,10 @@ const Skills = () => {
       <h4 className=" about text-center p-2 border border-dark border-5">
         SKILLS
       </h4>
-      <Row className="w-75 u-center g-2 pt-5" id="skills">
+      <Row className="w-75 u-center g-1 pt-5" id="skills">
         {skills.map((skill, index) => (
           <Card
-            style={{ width: "15rem", background: "#e5e5e5", border: "none" }}
+            style={{ width: "12rem", background: "#e5e5e5", border: "none" }}
             key={index}
           >
             <Card.Img variant="top" src={skill.src} />
