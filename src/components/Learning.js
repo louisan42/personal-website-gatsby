@@ -26,7 +26,7 @@ const Learning = () => {
       <Row className="w-75 g-2">
         {learningCards.map((learningCard, index) => (
           <Card
-            style={{ width: "15rem", background: "#e5e5e5", border: "none" }}
+            style={{ width: "15rem", background: "inherit", border: "none" }}
             key={index}
           >
             <Card.Img variant="top" src={learningCard.src} />
@@ -40,7 +40,7 @@ const Learning = () => {
       <Row className="w-75 g-2">
         {certifications.map((cert, index) => (
           <Card
-            style={{ width: "15rem", background: "#e5e5e5", border: "none" }}
+            style={{ width: "15rem", background: "inherit", border: "none" }}
             key={index}
           >
             <Card.Img variant="top" src={cert.src} />

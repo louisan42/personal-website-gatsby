@@ -27,8 +27,8 @@ const AboutMe = () => {
           when I need it
         </p>
       </Row>
-      <Row className="w-75 u-center" >
-        <Col className="w-25 mt-5">
+      <Row className="w-75 u-center" xs={1} sm={2}>
+        <Col className="mt-5">
           <Image
             fluid
             src={`../../images/img_dev.png`}
@@ -45,7 +45,7 @@ const AboutMe = () => {
             life.
           </p>
         </Col>
-        <Col className="w-25 mt-5">
+        <Col className="mt-5">
           <Image
             fluid
             src={`../../images/maintenance--v31.png`}

@@ -23,7 +23,7 @@ const Hero = () => {
         <Col className="p-5 d-none d-lg-block">
           <Image
             fluid
-            src={`../../images/my_pic.png`}
+            src={`../../images/web_pic121.png`}
             alt="authors picture"
             width="582"
             height="582"
