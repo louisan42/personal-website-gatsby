@@ -13,13 +13,13 @@ const Footer =() => {
           <h6>BACK TO TOP</h6>
         </a>
         </article>
-        <a href="#">
+        <a href="#" style={{padding: '20px'}}>
           <BsTwitter />
-        </a>{" "}
-        <a href="#">
+        </a>
+        <a href="#" style={{padding: '20px'}}>
           <BsLinkedin />
-        </a>{" "}
-        <a href="#">
+        </a>
+        <a href="#" style={{padding: '20px'}}>
           <IoMailSharp />
         </a>
       </section>

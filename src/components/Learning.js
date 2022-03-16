@@ -3,12 +3,12 @@ import { Card, Row } from "react-bootstrap";
 
 const learningCards = [
   {
-    src: "../../images/5968342.png",
+    src: "https://res.cloudinary.com/drsxgcyly/image/upload/f_auto/v1647447217/fortfolio_website/5968342_yxwhhh.png",
     name: "POSTGRESQL",
   },
   {
-    src: "../../images/5969083.png",
-    name: "IBM I (RPGLE/CLLE)",
+    src: "https://res.cloudinary.com/drsxgcyly/image/upload/f_auto/v1647447217/fortfolio_website/5969083_vwi9ps.png",
+    name: "IBM i (RPGLE/CLLE)",
   },
 ];
 

@@ -20,13 +20,15 @@ const Hero = () => {
           </Container>
           <Button variant="danger" className="mt-3 p-2 fs-5">DOWNLOAD RESUME</Button>
         </Col>
-        <Col className="p-5 d-none d-lg-block">
+        <Col className="p-5 d-none d-lg-block position-relative">
           <Image
             fluid
-            src={`../../images/web_pic121.png`}
+            src={"https://res.cloudinary.com/drsxgcyly/image/upload/f_auto,q_auto/v1647447233/fortfolio_website/web_pic121_liqk03.png"}
             alt="authors picture"
-            width="582"
-            height="582"
+            width="400"
+            className="position-absolute top-50 start-50 translate-middle"
+            //height="582"
+            //style={{margin:'0 auto'}}
           />
         </Col>
       </Row>

@@ -1,5 +1,5 @@
 body {
-    /* background-color: #e5e5e5 !important; */
+    background-color: #f4f4f4 !important;
     font-family: 'Montserrat',sans-serif;    
   }
  a {
@@ -88,7 +88,7 @@ section.divider{
  /* margin-top: 80px; */
   width: 15%;
   /* margin-bottom: 80px; */
-  margin: 75px auto;
+  margin: 0 auto;
   font-family: 'Montserrat',sans-serif;
 }
 span.fs-5.fw-bold{
@@ -102,7 +102,9 @@ section>img.position-absolute{
 }
 .portfolio-text{
   position: relative;
-  top: 80px;
+  top: 50px;
+  color: white;
+  border-color: white !important;
 }
 p.fs-2{
   
@@ -120,6 +122,35 @@ p.fs-5{
  .u-card .card-img {
    height: 250px;
    object-fit: cover;
+ }
+ .form-container{
+   width: 35%;
+   margin: 10px auto;
+ }
+ .u-input{
+   border: 0;
+   border-bottom: 2px solid black;
+   padding: 10px;
+   width: 100%;
+   background-color: #f4f4f4 !important;
+
+ }
+ input[type=submit]{
+    border: 0;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 5px 14px;
+    background-color: transparent;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 20px;
+ }
+ /* textarea.form-control {
+  height: inherit!important;
+} */
+ input[type=submit]:hover{
+    color: white;
+    background-color: black;
  }
 
 .u-container .u-card {
@@ -140,7 +171,7 @@ p.fs-5{
     pointer-events: none;
 } 
 .card-img:hover, .card-img-overlay:hover{
-  filter: brightness(50%);
+  filter: brightness(30%);
 }
 .u-container .u-card:hover .content {
     visibility: visible;

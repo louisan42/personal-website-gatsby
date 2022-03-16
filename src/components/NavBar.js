@@ -10,7 +10,7 @@ const NavBar = () => {
         <Container>
           <Navbar.Brand href="#home">
             <img
-              src={`../../images/default.png`}
+              src={`https://res.cloudinary.com/drsxgcyly/image/upload/f_auto/v1647447268/fortfolio_website/default_dhtrha.png`}
               width="110"
               height="110"
               className="d-inline-block align-top"
