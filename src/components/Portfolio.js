@@ -46,10 +46,10 @@ const Portfolio = () => {
     return (
       <Row className="u-container g-3" xs={1} md={3}>
         {cardData.map((card, index) => (
-          <Col>
-            <Card key={index} className=" u-card">
+          <Col key={index} >
+            <Card className=" u-card">
               <Card.Link href={card.address} target="_blank" rel="noreferrer">
-                  <Card.Img src={card.src} fluid className="card-img" />
+                  <Card.Img src={card.src} className="card-img" />
                   <Card.ImgOverlay className="content text-center">
                   <Card.Title className="fw-bold">{card.name}</Card.Title>
                   <Card.Subtitle>

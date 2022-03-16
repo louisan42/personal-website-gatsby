@@ -9,7 +9,12 @@ import Footer from "../components/Footer";
 import {MdBusinessCenter} from 'react-icons/md'
 import Contact from "../components/Contact";
 
+
+
+
+
 const IndexPage = () => {
+  
   return (
     <>
       <section style={{backgroundColor:'white', paddingBottom:'10%'}}>
