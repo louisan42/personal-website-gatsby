@@ -1,11 +1,14 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { Button } from "react-bootstrap"
 
 // styles
 const pageStyles = {
   color: "#232129",
   padding: "96px",
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
+  width:'75%',
+  margin: '0 auto'
 }
 const headingStyles = {
   marginTop: 0,
@@ -35,7 +38,7 @@ const NotFoundPage = () => {
         <span role="img" aria-label="Pensive emoji">
           😔
         </span>{" "}
-        we couldn’t find what you were looking for.
+        The page you're looking for does not exist.
         <br />
         {process.env.NODE_ENV === "development" ? (
           <>
@@ -45,7 +48,9 @@ const NotFoundPage = () => {
           </>
         ) : null}
         <br />
-        <Link to="/">Go home</Link>.
+        <Button bg="primary">
+        <Link to="/">Go home</Link>
+        </Button>
       </p>
     </main>
   )

@@ -1,10 +1,11 @@
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
-
 module.exports = {
     siteMetadata: {
         siteUrl: `https://www.yourdomain.tld`,
+        title:`Louis' Portfolio`,
+        author:`Louis Amoah`,
     },
     plugins: [
         {
@@ -25,14 +26,16 @@ module.exports = {
             }
           },
           {
-            resolve: "gatsby-plugin-anchor-links",
-            options: {
-              //offset: 300
-            }
+            resolve: `gatsby-plugin-react-helmet`
           },
           {
-            plugins: [`gatsby-plugin-react-helmet`]
-          }
+            resolve: 'gatsby-plugin-manifest',
+            options: {
+              name:`Louis' Portfolio`,
+              icon: 'src/images/fav.png',
+              start_url: `/`,
+            },
+          },
 
     ]
 }

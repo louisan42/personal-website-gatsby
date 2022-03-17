@@ -2,7 +2,7 @@
   "name": "my_first_gatsby_site",
   "version": "1.0.0",
   "private": true,
-  "description": "my_first_gatsby_site",
+  "description": "Portfolio website",
   "author": "Louis Amoah-nuamah",
   "keywords": [
     "gatsby"
@@ -19,7 +19,7 @@
     "bootstrap": "^5.1.3",
     "dotenv": "^16.0.0",
     "gatsby": "^4.8.0",
-    "gatsby-plugin-anchor-links": "^1.2.1",
+    "gatsby-plugin-manifest": "^4.10.0",
     "gatsby-plugin-react-helmet": "^5.10.0",
     "gatsby-plugin-react-svg": "^3.1.0",
     "gatsby-plugin-web-font-loader": "^1.0.4",
@@ -27,6 +27,7 @@
     "react-bootstrap": "^2.2.0",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
-    "react-icons": "^4.3.1"
+    "react-icons": "^4.3.1",
+    "react-scripts": "^5.0.0"
   }
 }

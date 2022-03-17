@@ -18,7 +18,7 @@ const IndexPage = () => {
   
   return (
     <>
-      
+
       <section style={{ backgroundColor: "white", paddingBottom: "10%" }}>
         <NavBar />
         <Container>

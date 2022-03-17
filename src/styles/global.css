@@ -193,6 +193,14 @@ p.fs-5{
   font-size: 1.2rem;
   width: 25%;
 }
+.form-container{
+  width: 55%;
+  margin: 10px auto;
+}
+
+input[type=submit]{
+   font-size: .8rem;
+}
 
  }
  @media (max-width: 576px) { 
