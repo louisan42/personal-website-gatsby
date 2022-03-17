@@ -33,7 +33,6 @@ module.exports = {
               name:`Louis' Portfolio`,
               lang: `en`,
               icon: 'src/images/fav.png',
-              start_url: `/`,
             },
           },
 
