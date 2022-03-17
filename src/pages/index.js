@@ -18,7 +18,9 @@ const IndexPage = () => {
   
   return (
     <>
-
+      <Helmet>
+        <title>Louis' Portfolio</title>
+      </Helmet>
       <section style={{ backgroundColor: "white", paddingBottom: "10%" }}>
         <NavBar />
         <Container>
@@ -46,7 +48,6 @@ const IndexPage = () => {
       <footer>
         <Footer />
       </footer>
-      
     </>
   );
 };

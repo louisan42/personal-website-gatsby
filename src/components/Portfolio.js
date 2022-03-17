@@ -21,12 +21,12 @@ const cardData = [
         tools:['angular','angular-material'],
         address: 'https://a4-seneca-music.vercel.app/'
     },
-    {
-        src: '../../images/abn_mock.png',
-        name: '',
-        tools:['handlebars','bootstrap','expressjs','j-query'],
-        address: 'https://pristine-death-valley-11072.herokuapp.com/'
-    }
+    // {
+    //     src: '../../images/abn_mock.png',
+    //     name: '',
+    //     tools:['handlebars','bootstrap','expressjs','j-query'],
+    //     address: 'https://pristine-death-valley-11072.herokuapp.com/'
+    // }
 ]
 const bgColors = [
     'primary',
@@ -48,8 +48,8 @@ const Portfolio = () => {
         {cardData.map((card, index) => (
           <Col key={index} >
             <Card className=" u-card">
-              <Card.Link href={card.address} target="_blank" rel="noreferrer">
-                  <Card.Img src={card.src} className="card-img" />
+              <Card.Link href={card.address} target="_blank" rel="noreferrer" aria-label={`${card.name} link`}>
+                  <Card.Img src={card.src} className="card-img" alt={card.name}/>
                   <Card.ImgOverlay className="content text-center">
                   <Card.Title className="fw-bold">{card.name}</Card.Title>
                   <Card.Subtitle>

@@ -62,7 +62,7 @@ const Skills = () => {
             style={{ width: "12rem", background: "inherit", border: "none" }}
             key={index}
           >
-            <Card.Img className="img-fluid" variant="top" src={skill.src} />
+            <Card.Img className="img-fluid" variant="top" src={skill.src} alt="skill cards"/>
             <Card.Body>
               <Card.Title className="text-center">{skill.text}</Card.Title>
             </Card.Body>
