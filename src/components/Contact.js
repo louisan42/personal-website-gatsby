@@ -47,7 +47,7 @@ const Contact = () => {
   }
   
     const submitData = (token) => {
-      fetch("https://lou-general-purpose-api.vercel.app/api/contact-me", {
+      fetch("https://lou-general-api.herokuapp.com/api/contact-me", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -60,8 +60,8 @@ const Contact = () => {
         }),
       })
         .then((res) => res.json())
-        .then((res) => {
-          setSuccess(res.success);
+        .then((data) => {
+          setSuccess(data.success);
           if(success){
             setName("");
             setEmail("");
@@ -75,7 +75,7 @@ const Contact = () => {
 
     let successMessage;
 
-    if(success === null){
+    if(success == null){
       successMessage = <div />
     }
     else if(success) {
@@ -101,6 +101,7 @@ const Contact = () => {
           style={{ paddingTop: "10px" }}
           name="form"
           className="form-container"
+          noValidate
         >
           <div className="form-floating mb-1">
             <input
@@ -109,13 +110,15 @@ const Contact = () => {
               placeholder="Enter your Name"
               id="name"
               value={name}
-              required
+              
               onChange={(e) => setName(e.target.value)}
+              required
             />
             <label htmlFor="name" className="">
               Name*
             </label>
           </div>
+          <div className="invalid-feedback"> Please enter a name</div>
           <div className="form-floating mb-1">
             <input
               className="u-input form-control"
@@ -123,8 +126,9 @@ const Contact = () => {
               placeholder="Enter a valid email address"
               id="email"
               value={email}
-              required
+              
               onChange={(e) => setEmail(e.target.value)}
+              required
             />
             <label htmlFor="email" className="">
               Email*
@@ -137,8 +141,9 @@ const Contact = () => {
               style={{ height: "150px" }}
               id="message"
               value={message}
-              required
+              
               onChange={(e) => setMessage(e.target.value)}
+              required
             />
             <label htmlFor="message" className="">
               Message*
@@ -155,6 +160,7 @@ const Contact = () => {
             name="g-recaptcha-response"
           />
           <input type="hidden" name="action" value="validate_captcha" />
+          {console.log(success)}
         </form>
       </section>
     );
