@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const SITE_KEY = process.env.SITE_KEY;
+const SITE_KEY = process.env.GATSBY_SITE_KEY;
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -98,7 +98,7 @@ const Contact = () => {
           CONTACT
         </h4>
         <form
-          style={{ padding: "10px" }}
+          style={{ paddingTop: "10px" }}
           name="form"
           className="form-container"
         >
