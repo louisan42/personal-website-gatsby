@@ -43,7 +43,7 @@ const Learning = () => {
             style={{ width: "15rem", background: "inherit", border: "none" }}
             key={index}
           >
-            <Card.Img variant="top" src={cert.src} />
+            <Card.Img variant="top" src={cert.src} alt={`${certifications.name} logo`}/>
             <Card.Body>
               <Card.Title className="text-center">{cert.name}</Card.Title>
             </Card.Body>
