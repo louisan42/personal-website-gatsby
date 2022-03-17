@@ -3,6 +3,7 @@ module.exports = {
     siteMetadata: {
         siteUrl: `https://www.yourdomain.tld`,
         title:`Louis' Portfolio`,
+        description: `Portfolio website of Louis Amoah-Nuamah`,
         author:`Louis Amoah`,
     },
     plugins: [
@@ -30,6 +31,7 @@ module.exports = {
             resolve: 'gatsby-plugin-manifest',
             options: {
               name:`Louis' Portfolio`,
+              lang: `en`,
               icon: 'src/images/fav.png',
               start_url: `/`,
             },

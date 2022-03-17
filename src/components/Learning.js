@@ -29,7 +29,7 @@ const Learning = () => {
             style={{ width: "15rem", background: "inherit", border: "none" }}
             key={index}
           >
-            <Card.Img variant="top" src={learningCard.src} />
+            <Card.Img variant="top" src={learningCard.src} alt={`${learningCard.name} logo`}/>
             <Card.Body>
               <Card.Title className="text-center">{learningCard.name}</Card.Title>
             </Card.Body>

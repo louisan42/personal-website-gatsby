@@ -103,7 +103,7 @@ const Contact = () => {
     <section
       className="text-center"
       id="contact-me"
-      style={{ paddingTop: "10%" }}
+      style={{ paddingTop: "10%", minHeight:"40%" }}
     >
       <h4 className=" about text-center p-2 border border-dark border-5">
         CONTACT
