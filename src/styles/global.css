@@ -207,15 +207,9 @@ input[type=submit]{
 
  }
  @media (max-width: 576px) { 
-  html{
-    font-size: 14px;
-  }
   .about {
-    /* font-size: .9rem; */
-    width: 40%;
-  }
-  .container{
-    width: 100% !important;
+    font-size: .9rem;
+    width: 30%;
   }
   .portfolio-text{
     position: relative;
@@ -227,28 +221,10 @@ input[type=submit]{
   section>img.position-absolute{
     height: 100px;
   }
-  div.card[style*='background: inherit']{
-    width: 10rem !important;
-    font-size: 20px !important;
-  }
 }
-@media (max-width: 400px) {
-  div.card[style*='background: inherit']{
-    width: 10rem !important;
-  }
-  .w-75{
-    min-width: 90% !important;
-  }
-}
-@media (max-width:992px)   {
+@media only screen and (min-width:767px ) and (max-width:992px)   {
   .portfolio-text{
     position: relative;
     top: 35px;
-  }
-  .w-75 {
-    width: 90% !important;
-  }
-  .divider.position-relative#portfolio>svg {
-    display: none;
   }
 }

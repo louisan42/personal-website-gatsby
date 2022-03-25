@@ -8,7 +8,7 @@ const AboutMe = () => {
         ABOUT ME
       </h4>
       <Row>
-        <p className="text-center w-75 u-center lh-base pt-5">
+        <p className="text-center w-50 u-center lh-base p-5">
           I am a curious person who loves to learn and explore. I have been
           working as a telecommunications technician for 5 years and can't find
           anything more fulfilling than building things, fixing things, and
