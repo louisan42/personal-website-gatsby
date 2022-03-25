@@ -21,12 +21,12 @@ const cardData = [
         tools:['angular','angular-material'],
         address: 'https://a4-seneca-music.vercel.app/'
     },
-    // {
-    //     src: '../../images/abn_mock.png',
-    //     name: '',
-    //     tools:['handlebars','bootstrap','expressjs','j-query'],
-    //     address: 'https://pristine-death-valley-11072.herokuapp.com/'
-    // }
+    {
+        src: '../../images/abn_mock.png',
+        name: '',
+        tools:['handlebars','bootstrap','expressjs','j-query'],
+        address: 'https://pristine-death-valley-11072.herokuapp.com/'
+    }
 ]
 const bgColors = [
     'primary',
