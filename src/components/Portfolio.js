@@ -16,17 +16,17 @@ const cardData = [
         address: 'https://wejamm.surge.sh/'
     },
     {
-        src: 'https://res.cloudinary.com/drsxgcyly/image/upload/f_auto/v1647447240/fortfolio_website/sen_music_fupebz.png',
-        name: 'SENECA MUSIC',
-        tools:['angular','angular-material'],
-        address: 'https://a4-seneca-music.vercel.app/'
+        src: 'https://res.cloudinary.com/drsxgcyly/image/upload/f_auto/v1648233700/fortfolio_website/reddit_client_ktdikr.png',
+        name: 'SENECA-X-JAMMING',
+        tools:['angular','angular-material','spotify-api'],
+        address: 'https://seneca-x-jamming.vercel.app/'
     },
-    {
-        src: '../../images/abn_mock.png',
-        name: '',
-        tools:['handlebars','bootstrap','expressjs','j-query'],
-        address: 'https://pristine-death-valley-11072.herokuapp.com/'
-    }
+    // {
+    //     src: '',
+    //     name: 'SENECA-X-JAMMING',
+    //     tools:['angular','bootstrap','expressjs','j-query'],
+    //     address: 'https://pristine-death-valley-11072.herokuapp.com/'
+    // }
 ]
 const bgColors = [
     'primary',
