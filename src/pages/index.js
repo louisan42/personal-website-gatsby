@@ -1,4 +1,4 @@
-import React,{ lazy } from "react";
+import React from "react";
 import { Helmet } from 'react-helmet'
 import { Container } from "react-bootstrap";
 import AboutMe from "../components/About-me";
@@ -39,7 +39,6 @@ const IndexPage = () => {
         </h4>
         <MdBusinessCenter />
       </section>
-      <section></section>
       <section className=" portfolio-container w-75 u-center pb-5">
         <Portfolio />
       </section>

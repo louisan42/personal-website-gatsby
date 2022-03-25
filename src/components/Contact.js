@@ -78,7 +78,7 @@ const Contact = () => {
   };
 
   const submitData = (token) => {
-    fetch("https://lou-general-api.herokuapp.com/api/contact-me", {
+    fetch("http://localhost:5000/api/contact-me", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -171,6 +171,7 @@ const Contact = () => {
           <input type="submit" value="SUBMIT" onClick={handleOnClick} />
         </div>
         {successMessage}
+        {console.log(email)}
 
         <input
           type="hidden"

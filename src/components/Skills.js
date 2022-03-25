@@ -59,12 +59,12 @@ const Skills = () => {
       <Row className="w-75 u-center g-1 pt-5" >
         {skills.map((skill, index) => (
           <Card
-            style={{ width: "12rem", background: "inherit", border: "none" }}
+            style={{ width:"12rem", background: "inherit", border: "none" }}
             key={index}
           >
             <Card.Img className="img-fluid" variant="top" src={skill.src} alt="skill cards"/>
             <Card.Body>
-              <Card.Title className="text-center">{skill.text}</Card.Title>
+              <Card.Title as="h6" className="text-center">{skill.text}</Card.Title>
             </Card.Body>
           </Card>
         ))}

@@ -26,12 +26,12 @@ const Learning = () => {
       <Row className="w-75 g-2">
         {learningCards.map((learningCard, index) => (
           <Card
-            style={{ width: "15rem", background: "inherit", border: "none" }}
+            style={{width:"12rem",background: "inherit", border: "none" }}
             key={index}
           >
             <Card.Img variant="top" src={learningCard.src} alt={`${learningCard.name} logo`}/>
             <Card.Body>
-              <Card.Title className="text-center">{learningCard.name}</Card.Title>
+              <Card.Title as="h6" className="text-center">{learningCard.name}</Card.Title>
             </Card.Body>
           </Card>
         ))}
@@ -40,12 +40,12 @@ const Learning = () => {
       <Row className="w-75 g-2">
         {certifications.map((cert, index) => (
           <Card
-            style={{ width: "15rem", background: "inherit", border: "none" }}
+            style={{width:"12rem",background: "inherit", border: "none" }}
             key={index}
           >
             <Card.Img variant="top" src={cert.src} alt={`${certifications.name} logo`}/>
             <Card.Body>
-              <Card.Title className="text-center">{cert.name}</Card.Title>
+              <Card.Title as="h6" className="text-center">{cert.name}</Card.Title>
             </Card.Body>
           </Card>
         ))}
