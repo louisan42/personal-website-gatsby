@@ -16,11 +16,17 @@ const cardData = [
         address: 'https://wejamm.surge.sh/'
     },
     {
-        src: 'https://res.cloudinary.com/drsxgcyly/image/upload/f_auto/v1648233700/fortfolio_website/reddit_client_ktdikr.png',
+        src: 'https://res.cloudinary.com/drsxgcyly/image/upload/f_auto/v1647447240/fortfolio_website/sen_music_fupebz.png',
         name: 'SENECA-X-JAMMING',
         tools:['angular','angular-material','spotify-api'],
         address: 'https://seneca-x-jamming.vercel.app/'
     },
+    {
+      src: 'https://res.cloudinary.com/drsxgcyly/image/upload/f_auto/v1648233700/fortfolio_website/reddit_client_ktdikr.png',
+      name: 'REDDIT CLIENT',
+      tools:['react','reddit-api', 'redux'],
+      address: 'https://blissful-reddit-client.netlify.app/'
+  },
     // {
     //     src: '',
     //     name: 'SENECA-X-JAMMING',
