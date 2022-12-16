@@ -13,16 +13,16 @@ const learningCards = [
 ];
 
 const certifications = [
-    {
-        src:'../../images/873107.png',
-        name:'AZURE FUNDAMENTALS'            
-    }
-]
+  {
+    src: "../../images/873107.png",
+    name: "AZURE FUNDAMENTALS",
+  },
+];
 
 const Learning = () => {
   return (
     <article className="w-75 u-center">
-      <h5 className="p-5 fw-bold">LEARNING:</h5>
+      {/* <h5 className="p-5 fw-bold">LEARNING:</h5>
       <Row className="w-75 g-2">
         {learningCards.map((learningCard, index) => (
           <Card
@@ -35,7 +35,7 @@ const Learning = () => {
             </Card.Body>
           </Card>
         ))}
-      </Row>
+      </Row> */}
       <h5 className="p-5 fw-bold">CERTIFICATION:</h5>
       <Row className="w-75 g-2">
         {certifications.map((cert, index) => (
@@ -43,14 +43,17 @@ const Learning = () => {
             style={{ width: "15rem", background: "inherit", border: "none" }}
             key={index}
           >
-            <Card.Img variant="top" src={cert.src} alt={`${certifications.name} logo`}/>
+            <Card.Img
+              variant="top"
+              src={cert.src}
+              alt={`${certifications.name} logo`}
+            />
             <Card.Body>
               <Card.Title className="text-center">{cert.name}</Card.Title>
             </Card.Body>
           </Card>
         ))}
       </Row>
-
     </article>
   );
 };

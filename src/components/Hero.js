@@ -39,14 +39,14 @@ const Hero = () => {
               <BsLinkedin className="bg-gray" />
             </a>
           </Container>
-          <a href="https://onedrive.live.com/download?cid=67F4B9C79D88E0A1&resid=67F4B9C79D88E0A1%21332106&authkey=AE9Cs4T8ekwjfJE&em=2"
+          {/* <a href="https://onedrive.live.com/download?cid=67F4B9C79D88E0A1&resid=67F4B9C79D88E0A1%21332106&authkey=AE9Cs4T8ekwjfJE&em=2"
           rel="noreferrer"
           target="_blank"
           aria-label="download resume">
             <Button variant="danger" className="mt-3 p-2 fs-5">
               DOWNLOAD RESUME
             </Button>{" "}
-          </a>
+          </a> */}
         </Col>
         <Col className="p-5 d-none d-lg-block position-relative">
           <Image

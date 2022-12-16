@@ -33,22 +33,22 @@ const Skills = () => {
       src: "https://res.cloudinary.com/drsxgcyly/image/upload/f_auto/v1647447217/fortfolio_website/919854_jqtwwu.png",
       text: "JAVA",
     },
-    {
-      src: "https://res.cloudinary.com/drsxgcyly/image/upload/f_auto/v1647448405/fortfolio_website/cee_xx1exz.svg",
-      text: "C",
-    },
-    {
-      src: "https://res.cloudinary.com/drsxgcyly/image/upload/f_auto/v1647447217/fortfolio_website/6132222_wjd5ja.png",
-      text: "C++",
-    },
-    {
-      src: "https://res.cloudinary.com/drsxgcyly/image/upload/f_auto/v1647448411/fortfolio_website/mongodb_o5trkp.svg",
-      text: "MONGODB",
-    },
-    {
-      src: "https://res.cloudinary.com/drsxgcyly/image/upload/f_auto/v1647447218/fortfolio_website/603201_jczngk.png",
-      text: "ORACLE / MS SQL",
-    },
+    // {
+    //   src: "https://res.cloudinary.com/drsxgcyly/image/upload/f_auto/v1647448405/fortfolio_website/cee_xx1exz.svg",
+    //   text: "C",
+    // },
+    // {
+    //   src: "https://res.cloudinary.com/drsxgcyly/image/upload/f_auto/v1647447217/fortfolio_website/6132222_wjd5ja.png",
+    //   text: "C++",
+    // },
+    // {
+    //   src: "https://res.cloudinary.com/drsxgcyly/image/upload/f_auto/v1647448411/fortfolio_website/mongodb_o5trkp.svg",
+    //   text: "MONGODB",
+    // },
+    // {
+    //   src: "https://res.cloudinary.com/drsxgcyly/image/upload/f_auto/v1647447218/fortfolio_website/603201_jczngk.png",
+    //   text: "ORACLE / MS SQL",
+    // },
   ];
 
   return (
