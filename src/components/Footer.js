@@ -22,7 +22,13 @@ const Footer =() => {
         <a href="mailto:louis.amoah@outlook.com" style={{padding: '20px'}} arial-label="link to mail">
           <IoMailSharp />
         </a>
+        {/* built with love gatsby */}
+        <p className="mt-3">© {new Date().getFullYear()}, Built with Gatsby</p>
+        
+
       </section>
+      
+
     );
 }
 export default Footer;

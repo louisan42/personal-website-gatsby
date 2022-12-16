@@ -35,6 +35,17 @@ const cardData = [
     address: "https://lamoah-nuamah-wa-web524-a6.azurewebsites.net/",
     logInInfo: "username: admin@example.com, password: Password123!",
   },
+  {
+    src: "https://res.cloudinary.com/drsxgcyly/image/upload/f_auto/v1671219382/fortfolio_website/Screenshot_20221208_012613_ssyexc.png",
+    name: "Myriad.TO",
+    tools: ["Flutter", "firebase", "Plaid API", "Android App"],
+    address: "https://appdistribution.firebase.google.com/testerapps/1:524823434843:android:e8ee655ebfdc26c01d117e/releases/3li1lfpclb79g",
+    //logInInfo: "username: joe@myseneca.ca, password: password1234",
+  },
+
+
+
+  
 ];
 const bgColors = [
   "primary",
